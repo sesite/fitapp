@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "86614457621",
+    "firebase_url": "https://sva-fit-center.firebaseio.com",
+    "project_id": "sva-fit-center",
+    "storage_bucket": "sva-fit-center.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86614457621:android:80a59c9e86154cb3e0fd1c",
+        "android_client_info": {
+          "package_name": "com.sva.fitandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86614457621-qds5tl9cqv45ugop8vtq5mq8mgt5kj23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvzsIi8nx4gkpY3omhXnoXRPa9fJuASa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86614457621-qds5tl9cqv45ugop8vtq5mq8mgt5kj23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
