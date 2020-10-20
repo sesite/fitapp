@@ -7,22 +7,26 @@ class WorkOutList extends StatelessWidget {
         title: 'Бег на улице',
         author: 'Europa',
         description: 'Бег на открытом воздухе для сжигания каллорий',
-        level: 'Новичок'),
+        level: 'Новичок',
+        icon: Icon(Icons.directions_run)),
     WorkOut(
         title: 'Плавание',
         author: 'Fit',
         description: 'Плание в бассейне 25 метров свободным стилем',
-        level: 'Средний'),
+        level: 'Средний',
+        icon: Icon(Icons.pool)),
     WorkOut(
         title: 'Беговая дорожка',
         author: 'ExtremmFit',
         description: 'Бег на беговой дорожке в помещении с Таськой',
-        level: 'Экстремально'),
+        level: 'Экстремально',
+        icon: Icon(Icons.directions_bike)),
     WorkOut(
         title: 'Свободная тренировка',
         author: 'Home',
         description: 'Зарядка на каждое утро',
-        level: 'Новичок'),
+        level: 'Новичок',
+        icon: Icon(Icons.favorite_outlined)),
   ];
 
   @override
@@ -45,7 +49,7 @@ class WorkOutList extends StatelessWidget {
                 child: ListTile(
                   leading: Container(
                     padding: EdgeInsets.only(right: 10),
-                    child: Icon(Icons.directions_run),
+                    child: workouts[i].icon,
                   ),
                   title: Text(workouts[i].title),
                   trailing: Icon(Icons.keyboard_arrow_right),

@@ -26,18 +26,23 @@ class MyHomePage extends StatelessWidget {
       ),
       body: WorkOutList(),
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.black,
         items: const [
           BottomNavigationBarItem(
-              backgroundColor: Colors.blueGrey,
+            backgroundColor: Colors.blue,
               icon: Icon(
-                Icons.filter_hdr_outlined,
-                color: Colors.black,
+                Icons.accessibility,
+                color: Colors.black
               ),
               label: 'Мои тренировки'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.people), label: 'Поиск тренировок'),
+              backgroundColor: Colors.blue,
+              icon: Icon(
+                Icons.people,
+                color: Colors.black),
+              label: 'Поиск тренировок'),
         ],
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.amber,
       ),
     );
   }
