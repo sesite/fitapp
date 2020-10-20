@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 
 import 'domain/user.dart';
 
-//комментарий
 void main() async {
   //WidgetsFlutterBinding.ensureInitialized();
   //await Firebase.initializeApp();
